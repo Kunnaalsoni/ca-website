@@ -1,6 +1,7 @@
 const express = require("express");
 
 const app = express();
+import { Analytics } from "@vercel/analytics/react"
 // Port Num
 const port = process.env.PORT || 3000;
 
