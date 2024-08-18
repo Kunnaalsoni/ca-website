@@ -1,0 +1,46 @@
+.intro-container {
+	background-image: url('../images/things/common-innerpage-img.jpg');
+	background-position: bottom center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 50vh;
+	width: 100vw;
+}
+
+.intro-container-wrapper {
+	background-color: rgba(22, 34, 49, 0.3);
+	width: inherit;
+	height:  inherit;
+}
+
+.page-heading {
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page-position {
+	text-align:center;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home {
+	color: lightgrey;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 992px) {
+	.page-heading {
+		font-size: 36px;
+		line-height: normal;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.page-heading {
+		font-size: 40px;
+		line-height: normal;
+	}
+}

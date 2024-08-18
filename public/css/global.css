@@ -1,0 +1,47 @@
+/* This is the css which is common in each page of a website */
+/* Changes in this css files will show effects in each page of a website */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+
+}
+
+a {
+   color: inherit;
+}
+
+@keyframes top {
+   from {
+      top: -30px;
+   } 
+   
+   to {
+      top: 0px;
+   }
+}
+
+hr.stylish-hr-white {
+   border-color: white;
+   width: 80px;
+   color: white;
+}
+
+hr.stylish-hr-blue {
+   border-color: rgb(22, 34, 49);
+   width: 80px;
+
+   /*background-color: rgb(22, 34, 49)*/
+}
+
+p.sub-text {
+   font-size: 16px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   color: grey;
+   /*line-height: 1px;*/
+   text-align: center;
+}

@@ -1,0 +1,127 @@
+@media only screen and (max-width: 992px) {
+   p.carousel-text-head {
+      line-height: normal;
+      font-size: 55px !important;
+   }
+   .caption > div {
+      padding: 0 10px;
+   }
+
+   div.welcome-section {
+      padding: 40px 0px;
+   }
+
+   p.welcome-section-heading {
+      line-height: normal;
+      font-size: 40px;
+   }
+
+   .quality-cards-wrapper {
+      max-width: 100%;
+      padding: 10px;
+      grid-template-columns: 1fr;
+   }
+
+   .quality-container-position {
+      padding: 20px 0px;
+   }
+
+   #quality-card {
+      padding: 0px 3px;
+      border: none !important;
+   }
+
+   .services-container {
+      grid-template-columns: 12fr;
+   }
+
+   .question-container-1,
+   .question-container-3 {
+      grid-template-columns: 13fr;
+      grid-gap: 0px;
+   }
+
+   .question-container-2 {
+      grid-template-columns: 13fr;
+   }
+
+   .question-on-small-and-med {
+      display: block;
+   }
+
+   .question-on-large-only {
+      display: none;
+   }
+
+   .question {
+      text-align: left;
+   }
+
+   .question::before, .question-on-small-and-med::before {
+      content: "Q:  ";
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 50px;
+      line-height: 10px;
+   }
+
+   .answer {
+      text-align: left;
+      font-size: 16px;
+   }
+
+   .map-wrapper {
+      display: grid;
+      grid-template-columns: 12fr;
+      grid-gap: 50px;
+   }
+
+   .map-wrapper {
+      padding: 30px;
+   }
+
+}
+
+@media only screen and (max-width: 460px) {
+   .carousel-text-content {
+      font-size: 17px !important;
+   }
+
+   p.carousel-text-head {
+      font-size: 43px !important;
+   }
+
+   p.welcome-section-heading {
+      font-size: 35px;
+   }
+
+   .quality-container-position {
+      padding: 10px 0px;
+   }
+
+   p.welcome-section-heading {
+      font-size: 30px;
+   }
+
+   .QA-section-header,
+   .services-section-header,
+   .map-header,
+   .contactus-header {
+      font-size: 28px;
+   }
+
+   .question,
+   .question-on-small-and-med {
+      font-size: 23px
+   }
+
+   .question::before,
+   .question-on-small-and-med::before {
+      font-size: 25px;
+   }
+
+   .question-container-1,
+   .question-container-3,
+   .question-container-2 {
+      grid-gap: 1px;
+   }
+}

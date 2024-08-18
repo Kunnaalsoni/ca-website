@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jay Jani & Associates, Chartered Accountants</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <style type="text/css">
+        /* This is the css which is common in each page of a website */
+        /* Changes in this css files will show effects in each page of a website */
+
+        @import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+
+        }
+
+        a {
+            color: inherit !important;
+        }
+
+        @keyframes top {
+            from {
+                top: -30px;
+            }
+
+            to {
+                top: 0px;
+            }
+        }
+
+        hr.stylish-hr-white {
+            border-color: white;
+            width: 80px;
+            color: white;
+        }
+
+        hr.stylish-hr-blue {
+            border-color: rgb(22, 34, 49);
+            width: 80px;
+
+            /*background-color: rgb(22, 34, 49)*/
+        }
+
+        p.sub-text {
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            color: grey;
+            text-align: center;
+        }
+
+        .sharing-container {
+            padding: 20px 0px;
+            background: rgb(22, 34, 49)
+        }
+
+        .facebook,
+        .facebook:hover {
+            background-color: #3B5998 !important;
+            color: white;
+        }
+
+        .google,
+        .google:hover {
+            background-color: #DB4437 !important;
+            color: white;
+        }
+
+        .twitter,
+        .twitter:hover {
+            background-color: #1DA1F2 !important;
+            color: white;
+        }
+
+        .linkedin,
+        .linkedin:hover {
+            background-color: #0077b5 !important;
+            color: white;
+        }
+
+        .whatsapp,
+        .whatsapp:hover {
+            background-color: #25D366 !important;
+            color: white
+        }
+
+        .facebook>i,
+        .google>i,
+        .twitter>i,
+        .linkedin>i,
+        .whatsapp>i {
+            font-size: 15px !important;
+        }
+
+        button {
+            background-color: rgb(22, 34, 49) !important;
+            transition: 1s;
+            text-align: center;
+            font-family: 'Quicksand' !important;
+        }
+
+
+        button:hover {
+            padding: 0px 40px;
+        }
+
+        header:after,
+        #timeline .timeline-item:after,
+        header:before,
+        #timeline .timeline-item:before {
+            content: "";
+            display: block;
+            width: 100%;
+            clear: both;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+
+        .project-name {
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        #timeline {
+            width: 100%;
+            margin: 30px auto;
+            position: relative;
+            padding: 0 10px;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+            -ms-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+
+        #timeline:before {
+            content: "";
+            width: 3px;
+            height: 100%;
+            background: #172231;
+            left: 50%;
+            top: 0;
+            position: absolute;
+        }
+
+        #timeline:after {
+            content: "";
+            clear: both;
+            display: table;
+            width: 100%;
+        }
+
+        #timeline .timeline-item {
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        #timeline .timeline-item .timeline-icon {
+            background: #172231;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            overflow: hidden;
+            margin-left: -23px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+        #timeline .timeline-item .timeline-icon svg {
+            position: relative;
+            top: 14px;
+            left: 14px;
+        }
+
+        #timeline .timeline-item .timeline-content {
+            width: 45%;
+            background: #fff;
+            padding: 20px;
+            -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+            -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        #timeline .timeline-item .timeline-content h2 {
+            padding: 15px;
+            background: #ee4d4d;
+            color: #fff;
+            margin: -20px -20px 0 -20px;
+            font-weight: 300;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            -ms-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+
+        #timeline .timeline-item .timeline-content:before {
+            content: "";
+            position: absolute;
+            left: 45%;
+            top: 20px;
+            width: 0;
+            height: 0;
+            border-top: 7px solid transparent;
+            border-bottom: 7px solid transparent;
+            border-left: 7px solid #172231;
+        }
+
+        #timeline .timeline-item .timeline-content.right {
+            float: right;
+        }
+
+        #timeline .timeline-item .timeline-content.right:before {
+            content: "";
+            right: 45%;
+            left: inherit;
+            border-left: 0;
+            border-right: 7px solid #172231;
+        }
+
+        @media screen and (max-width: 768px) {
+            #timeline {
+                margin: 30px;
+                padding: 0px;
+                width: 90%;
+            }
+
+            #timeline:before {
+                left: 0;
+            }
+
+            #timeline .timeline-item .timeline-content {
+                width: 90%;
+                float: right;
+            }
+
+            #timeline .timeline-item .timeline-content:before,
+            #timeline .timeline-item .timeline-content.right:before {
+                left: 10%;
+                margin-left: -6px;
+                border-left: 0;
+                border-right: 7px solid #172231;
+            }
+
+            #timeline .timeline-item .timeline-icon {
+                left: 0;
+            }
+        }
+
+        .swiper {
+        width: 100%;
+        height: 100%;
+        }
+
+        .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/index-unique-css.css">
+    <link rel="stylesheet" href="/css/contactus.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/index-unique-responsive-css.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript"
+        src="//platform-api.sharethis.com/js/sharethis.js#property=5ac4f51b003b52001341b3d4&product=custom-share-buttons"></script>
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+
+    <!--[if lt IE 9]>
+	    <script src="../externals/htmll5shiv-master/dist/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <nav id="large-screen-nav" class="hide-on-med-and-down">
+        <div class="nav-wrapper">
+            <a href="html/index.html" class="firm-name">
+                <img src="../images/logos/1.png" class="firm-logo">
+            </a>
+            <ul id="nav-mobile" class="right">
+                <li class="waves-effect waves-light">
+                    <a href="../html/index.html">Home</a>
+                </li>
+
+
+                <li>
+                    <a class="waves-effect waves-light dropdown-button" data-contrainwidth="false"
+                        data-alignment="right" data-gutter="30" data-beloworigin="true" href="#!"
+                        data-activates="aboutus">About Us</a>
+                </li>
+
+                <li class="waves-effect waves-light">
+                    <a href="#services">Services</a>
+                </li>
+
+
+                <li class="waves-effect waves-light">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dropdown for ABOUT US -->
+    <ul id="aboutus" class="dropdown-content">
+        <li><a href="/html/aboutus/team.html">Proprietor Details</a></li>
+        <li><a href="#our-firm">Our Firm</a></li>
+    </ul>
+
+
+
+    <!-- Nav bar for small and medium sized screens -->
+    <ul id="slide-out" class="collapsible side-nav" data-collapsible="accordion">
+        <li>
+            <img src="../images/logos/1.png" class="firm-logo-sidenav">
+        </li>
+        <li>
+            <div class="collapsible-header">
+                <a href="index.html">
+                    <i class="material-icons sidenav-icons left">home</i> Home
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header" data-collapsible="accordion"><i
+                    class="material-icons sidenav-icons left">group</i> About Us</div>
+            <div class="collapsible-body">
+                <ul>
+                    <li><a href="/html/aboutus/team.html">Proprietor Details</a></li>
+                    <li><a href="#our-firm">Our Firm</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons sidenav-icons left">star</i> Services</div>
+        </li>
+
+        <!-- <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">business_center</i> Careers
+            </div>
+        </li> -->
+        <li>
+            <div class="collapsible-header">
+                <a href="#contact">
+                    <i class="material-icons sidenav-icons left">call</i> Contact
+                </a>
+            </div>
+        </li>
+    </ul>
+
+    <!-- Trigger button for sidenav -->
+    <nav id="small-screen-nav" class="hide-on-large-only">
+        <div class="nav-wrapper">
+            <ul id="nav-mobile">
+                <li>
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i
+                            class="material-icons">menu</i></a>
+
+                        <li class = "right sidenav-follow-links"><a style="padding:0" href="https://www.instagram.com/jayjani_associates/" target="_blank"><i class = "fa fa-instagram"></i></a></li>
+                        <li class = "right sidenav-follow-links"><a style="padding: 0;" href="https://www.linkedin.com/in/ca-jay-jani/" target="_blank"><i class = "fa fa-linkedin"></i></a></li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sub nav -->
+    <!-- This is only visible in large screens -->
+    <nav id="sub-nav" class="hide-on-med-and-down">
+        <div class="nav-wrapper">
+            <ul id="nav-mobile">
+                <li>
+                    <a href="tel:918905675863" style="color:#fff !important;"><i class="material-icons left">call</i>+91-8905675863</a>
+                </li>
+
+                <li>
+                    <span class="slash"> / </span>
+                </li>
+
+                <li>
+                    <i class="left material-icons"> email</i>cajaykjani@gmail.com
+                </li>
+                <li class = "right sub-nav-follow-links"><a style="padding:0; color: #fff !important;" href="https://www.instagram.com/jayjani_associates/" target="_blank"><i class = "fa fa-instagram"></i></a></li>
+                <li class = "right sub-nav-follow-links"><a style="padding: 0; color: #fff !important;" href="https://www.linkedin.com/in/ca-jay-jani/" target="_blank"><i class = "fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <!-- This carousel is responsive -->
+    <div class="carousel carousel-slider center" data-indicators="true">
+
+        <div class="carousel-item carousel1">
+            <div class="caption valign-wrapper">
+                <div>
+                    <p class="carousel-text-head">Jay Jani & Associates</p>
+                    <hr class="carousel_hr">
+                    <p class="carousel-text-content">Your Success is our Business..</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item center-align carousel2">
+            <div class="caption valign-wrapper ">
+                <div>
+                    <p class="carousel-text-head">Jay Jani & Associates</p>
+                    <hr class="carousel_hr">
+                    <p class="carousel-text-content">Change is the only permanent thing in life. It is therefore,
+                        important for us to always remain abreast with changes in
+                        business environment and law affecting accounting and
+                        taxation.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item carousel3">
+            <div class="caption valign-wrapper">
+                <div>
+                    <p class="carousel-text-head">Jay Jani & Associates</p>
+                    <hr class="carousel_hr">
+                    <p class="carousel-text-content">Knowledge is never complete. It is our belief a human being
+                        remains a student throughout life. We are always striving to
+                        assimilate the wealth of knowledge.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item carousel4">
+            <div class="caption valign-wrapper">
+                <div>
+                    <p class="carousel-text-head">Jay Jani & Associates</p>
+                    <hr class="carousel_hr">
+                    <p class="carousel-text-content">Knowledge is not complete unless it is shared with others. It is
+                        therefore, our endeavour to share whatever knowledge we
+                        have with all.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Options Section -->
+    <!-- This section is visible on small and medium sized screens -->
+    <div class="contact-options-container hide-on-large-only">
+        <div>
+            <p class="contact-option">+91-8905675863</p>
+        </div>
+        <div>
+            <a href="#">
+                <p class="contact-option">cajaykjani@gmail.com</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Welcome section -->
+    <div class="welcome-section container" id="our-firm">
+        <p class="welcome-section-heading">Welcome to Jay Jani & Associates</p>
+        <p class="sub-text">An alliance of Chartered Accountants</p>
+        <img src="/images/things/underline.png" class="underline">
+
+        <p class="welcome-section-content">
+            The firm Jay Jani & Associates was set up in the year 2018 by CA Jay Kumar Jani who has now more than 8
+            years of experience.
+        </p>
+
+        <p class="welcome-section-content">Jay Jani & Associates strives to provide quality services in the areas of
+            Statutory Audit, Internal Audit, Accounting outsourcing, Taxation (Direct and
+            Indirect), Company Law Matters for both domestic and foreign companies,
+            Management Consultancy, Fixed Assets Verification and FEMA.</p>
+
+        <p class="welcome-section-content">
+            The firm is well geared to take up any professional assignments in the above
+            areas. It has association with firms of Chartered Accountants, Management
+            Consultants, Company Secretaries and IT Professionals etc. to provide
+            complete range of services.
+        </p>
+        <p class="welcome-section-content">
+            The firm is in the panel of cooperative society for major audit undertaking.
+        </p>
+        <p class="welcome-section-content">
+            In line with the Mission Statement, we always strive to acquire more and
+            more knowledge in such ever-changing laws.
+        </p>
+
+        <br>
+    </div>
+
+    <!-- Our Qualities Section-->
+    <!-- <div class = "qualities-container">
+        <div class = "quality-container-position">
+            <div class = "quality-cards-wrapper">
+                <div id = "quality-card" style = "border-right: 1px dashed white">
+                    <i class = "material-icons">extension</i>
+                    <p class = "quality-card-heading">Our Vision</p>
+                    <p class = "quality-card-description">LT & Associates shall be a leader in providing high-quality services in the field of Audit and Assurance, Accounting, Tax and Business Advisory to domestic and international clients. The firm would have a presence in principal cities of India and would develop niche areas for the future growth of the firm.</p>
+                </div>
+
+                <div id = "quality-card">
+                    <i class = "material-icons">flash_on</i>
+                    <p class = "quality-card-heading">Our Mision</p>
+                    <p class = "quality-card-description">To deliver services in a timely manner, to create value for our clients, to maintain our personal relationships with the clients that are the foundation of our practice, to provide an enjoyable learning experience and an opportunity for growth for all our team members, to grow but never to compromise on our values of honesty and integrity.</p>
+                </div>
+
+                <div id = "quality-card" style = "border-left: 1px dashed white">
+                    <i class = "material-icons">grade</i>
+                    <p class = "quality-card-heading">Our Objective</p>
+                    <p class = "quality-card-description">Upholding the highest level of professional standards and reputation for integrity, to the platform a culture of transparency and responsibility. strive to succeed by exceeding client expectations of affordability, quality,and time-bound delivery schedules, focusing on the continuous development and collaborative growth.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Q/A Section -->
+    <!-- Question N Answer Section -->
+    <!-- <div class = "QA-section-parent">
+        <div class = "QA-section-wrapper">
+            <div style = "padding-bottom: 30px;">
+                <p class = "QA-section-header">Question / Answer</p>
+                <hr class = "stylish-hr-white">
+            </div>
+
+            <div class = "QA-container">
+                <div class = "question-container-1 valign-wrapper">
+                    <p class = "question">Who we are?</p>
+                    <p class = "answer">We are a chartered accountant firm rendering comprehensive professional services, which includes audit, management consultancy, tax consultancy, accounting services, secretarial services etc. We offer our services across the country form our offices situated at Ghaziabad & Etawah.</p>
+                </div>
+
+                <div class = "question-container-2 valign-wrapper">
+                    <p class = " question-on-small-and-med">Why choose us?</p>  
+                    <p class = "answer">We believe in ethical work and technical expertise. We keep ourselves updated with changes in accounting standards, laws, bills, businesses and professional development. We offer respective skills, share insights and develop ideas to meet the business requirements to prevent your time and money in searching the same.</p>
+                    <p class = "question-on-large-only">Why choose us?</p> 
+                </div>
+
+                <div class = "question-container-3 valign-wrapper">
+                    <p class = "question">How we are different!</p>
+                    <p class = "answer">We acquire the same knowledge and represent the same laws but what different we do is we listen to your requirements and assist the same with experience and considering the future aspects and consequences. We forsee every building brick of your business to make its foundation strong and unbreakable.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Our Services Section -->
+    <div class="services-super-parent" id="services">
+        <div style="background-color: rgba(22, 34, 49, 0.701)">
+            <div class="services-wrapper">
+
+                <div style="padding-bottom: 30px">
+                    <p class="services-section-header">Our Services</p>
+
+                    <hr class="stylish-hr-white">
+                    <p class="sub-text" style="color: white">We cover large varities of services</p>
+                </div>
+
+                <div class="services-container">
+                    <div class="service">
+
+                        <p class="service-number"><span>1</span></p>
+
+                        <p class="service-header">
+                            <a>Business Start Up</a>
+                        </p>
+
+                        <p class="service-body">We offer comprehensive services for business formation, including LLP,
+                            Company, OPC, and Partnership. Our expertise extends to legal drafting, navigating Special
+                            Economic Zone regulations, and providing business advisory. Additionally, we assist
+                            start-ups with various registrations required under different laws to ensure compliance and
+                            smooth operations.</p>
+                    </div>
+
+                    <div class="service">
+                        <p class="service-number"><span>2</span></p>
+
+                        <p class="service-header">
+                            <a>Audits</a>
+                        </p>
+
+                        <p class="service-body">We conduct tax audits, internal and statutory audits for Indian
+                            companies, and handle operations within India. Our services also include stock and book debt
+                            audits, system audits, investigations, special audits as required by management, and fixed
+                            assets verification, ensuring thorough financial oversight and compliance.</p>
+                    </div>
+
+
+                    <div class="service">
+                        <p class="service-number"><span>3</span></p>
+
+                        <p class="service-header">
+                            <a>Taxation</a>
+                        </p>
+
+                        <p class="service-body">We provide comprehensive tax planning and return filing services for
+                            individuals, HUFs, firms, companies, and trusts. Our expertise includes transfer pricing
+                            certification under the Indian Income Tax Act, 1961, income tax consultancy, indirect tax
+                            advisory services, and representing clients before tax authorities to ensure compliance and
+                            optimal tax strategies.</p>
+                    </div>
+
+                    <div class="service">
+                        <p class="service-number"><span>4</span></p>
+
+                        <p class="service-header">
+                            <a>Certification</a>
+                        </p>
+
+                        <p class="service-body">We offer 15CB certification, net worth certificates, turnover
+                            certificates, and other essential CA certifications, ensuring accurate financial
+                            documentation and compliance with regulatory requirements.</p>
+                    </div>
+
+                    <div class="service">
+                        <p class="service-number"><span>5</span></p>
+
+                        <p class="service-header">
+                            <a>Company Law Matters</a>
+                        </p>
+
+                        <p class="service-body">We provide comprehensive services for company incorporation, consultancy
+                            on Company Law matters, and strategic planning for mergers, acquisitions, demergers, and
+                            corporate reorganizations. Our expertise includes filing annual returns, Clause 49
+                            compliance, handling secretarial matters like share transfers, maintaining statutory
+                            records, advising on public/rights/bonus issues, and managing changes in name, objects, and
+                            registered office.</p>
+                    </div>
+
+                    <div class="service">
+                        <p class="service-number"><span>6</span></p>
+
+                        <p class="service-header">
+                            <a>Fund Raising</a>
+                        </p>
+
+                        <p class="service-body">Financing is crucial at every stage of a business lifecycle. We develop
+                            detailed forecast models to determine the ideal and minimum funding required, considering
+                            various sensitivity scenarios. Our expertise ensures the best deal for clients by
+                            negotiating with all parties involved. Services include preparing bank loan applications,
+                            project reports, CMA data, working capital arrangements, term loans, project finance, bank
+                            guarantees, loans against property, and collateral-free loans.</p>
+                    </div>
+
+
+                    <div class="service">
+                        <p class="service-number"><span>7</span></p>
+
+                        <p class="service-header">
+                            <a>Foreign Investment</a>
+                        </p>
+
+                        <p class="service-body">We offer comprehensive consultancy on Overseas Direct Investment (ODI)
+                            compliance, ensuring that businesses meet all necessary regulatory requirements. Our
+                            services include advisory on the review of foreign contracts and work orders to mitigate
+                            risks, and consultancy related to foreign financials, helping businesses navigate complex
+                            international financial landscapes with confidence and precision.</p>
+                    </div>
+                    <div class="service">
+                        <p class="service-number"><span>8</span></p>
+
+                        <p class="service-header">
+                            <a>GST</a>
+                        </p>
+
+                        <p class="service-body">We offer a comprehensive suite of GST services, including registration, preparation, and filing of returns. Our expertise also encompasses representation before authorities and strategic advisory, providing a holistic solution for all GST-related requirements. With our support, businesses can ensure compliance and efficiency in their GST operations seamlessly.</p>
+                    </div>
+                    <div class="service">
+                        <p class="service-number"><span>9</span></p>
+
+                        <p class="service-header">
+                            <a>TDS</a>
+                        </p>
+
+                        <p class="service-body">We provide expert advice on all aspects of TDS/TCS compliance, including obtaining Tax Deduction Account Number (TAN) and conducting periodic reviews of TDS/Withholding Tax compliance. Our services cover monthly TDS computation, reconciliation of TDS due and deposited, issuance of monthly and annual TDS certificates, filing of quarterly E-TDS/Manual returns, correction statements, and other related services to ensure thorough and accurate tax management.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="services-section-header">Our Timeline</p>
+        <div id="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+
+                </div>
+                <div class="timeline-content">
+                    <p class="service-header">
+                        <a>2018</a>
+                    </p>
+                    <p>
+                        Virtual office Set up of Jay Jani & Associates at Ahmedabad, Gujarat
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+
+                </div>
+                <div class="timeline-content right">
+                    <p class="service-header">
+                        <a>2020</a>
+                    </p>
+                    <p>
+                        Transfer Head office from Gujarat to Rajasthan and established Physical Presence at Banswara Rajasthan with 100 Sqft office space.
+                    </p>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="../images/timeline/2020/1.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="../images/timeline/2020/2.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="../images/timeline/2020/3.jpg">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                </div>
+                <div class="timeline-content">
+                    <p class="service-header">
+                        <a>2021</a>
+                    </p>
+                    <p>
+                        Collaborate with foreign practicing partners in Dubai and Kenya. Along side mark presence with Legal Crew to establish PAN India Customer based.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+
+                </div>
+                <div class="timeline-content right">
+                    <p class="service-header">
+                        <a>2022</a>
+                    </p>
+                    <p>
+                        Shifted to Rented Premises with 500+ client support and established strong presence in Banswara.
+                    </p>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                         <div class="swiper-slide">
+                             <img src="../images/timeline/2022/4.jpg">
+                          </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                </div>
+                <div class="timeline-content">
+                    <p class="service-header">
+                        <a>2024</a>
+                    </p>
+                    <p>
+                        Jay Jani & associates shifted to their own office premises with impressive infrastructure, 800+ client support, experienced staff and new approach to the industry.
+                    </p>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../images/timeline/2024/1.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../images/timeline/2024/2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- For Reach Us section -->
+    <div class="googlemap-container">
+        <div class="googlemap-container-wrapper">
+            <div class="map-header-container">
+                <p class="map-header">Reach Us</p>
+                <hr class="stylish-hr-blue">
+                <p class="sub-text">Reach out to us. We know the best solution that suits your business.</p>
+            </div>
+
+            <div class="map-wrapper">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.538855146182!2d74.44004607513303!3d23.549082878808257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3966cfe9351877a9%3A0x7244c1a2ba1f370!2sJay%20Jani%20%26%20Associates!5e0!3m2!1sen!2sin!4v1723709038248!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="map-address-header">SHOP NO. 8 & 9, VARDAN SHOPPING COMPLEX</p>
+                    <p class="map-address">OPP. KUSHALBAG MAIDAN, NEAR KASTUR GOLD, BANSWARA</p>
+                    <p class="map-address">RAJASTHAN -327001</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactus-section-superparent" id="contact">
+        <div style="background-color: rgba(149, 226, 231, 0.504)">
+            <div class="contactus-header-wrapper">
+                <p class="contactus-header">Get in touch</p>
+                <!-- <hr class = "stylish-hr-blue"> -->
+
+                <p class="contactus-subtext">We are always ready to help you out regarding your queries.</p>
+            </div>
+            <!-- modify this form HTML and place wherever you want your form -->
+
+            <div class="contactus-wrapper">
+                <div class="row">
+                    <form class="col s12 m12 l12 contact-form center-align" action="https://formspree.io/f/xyzgdgvw" method="POST">
+                        <div class="row">
+                            <div class="input-field col s12 m6 l6">
+                                <i class="show-on-medium-and-up material-icons prefix">account_circle</i>
+                                <input type="text" class="validate" id="name" name="name" autocomplete="off" required>
+                                <label for="name">Name</label>
+                            </div>
+
+                            <div class="input-field col s12 m6 l6">
+                                <i class="show-on-medium-and-up material-icons prefix">call</i>
+                                <input type="tel" class="validate" id="phone" name="phone_no" autocomplete="off">
+                                <label for="phone">Phone</label>
+                            </div>
+                            
+                            <div class="input-field col s12">
+                                <i class="show-on-medium-and-up material-icons prefix">email</i>
+                                <input type="email" class="validate" id="email" name="email" autocomplete="off"
+                                    required>
+                                <label for="email">Email</label>
+                            </div>
+
+                            <div class="input-field col s12">
+                                <i class="show-on-medium-and-up material-icons prefix">message</i>
+                                <textarea class="materialize-textarea" id="message" name="message" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+
+                            <button type="submit" class="valign-wrapper btn waves-effect waves-light"><span
+                                    style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Submit</span></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-action-btn vertical">
+        <a class="btn-floating white btn-large" href="https://api.whatsapp.com/send?phone=918619081664&text=Hi" target="_blank">
+            <i class="fa fa-whatsapp" style="color:black"></i>
+        </a>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <p class="footer-header">About Us</p>
+                <hr class="footer-hr left">
+
+                <br>
+                <p><a href="/html/aboutus/team.html" class="footer-content">Proprietor Details</a></p>
+                <p><a href="#our-firm" class="footer-content">Our Firm</a></p>
+
+            </div>
+
+            <div>
+                <p class="footer-header">Services</p>
+                <hr class="footer-hr">
+
+                <br>
+
+                <p><a href="#services" class="footer-content">Corporate Services</a></p>
+                <p><a href="#services" class="footer-content">Audit & Assurance Services</a></p>
+                <p><a href="#services" class="footer-content">Direct Taxation</a></p>
+                <p><a href="#services" class="footer-content">Indirect Taxation</a></p>
+                <p><a href="#services" class="footer-content">Risk Advisory Services</a></p>
+                <p><a href="#services" class="footer-content">Bookkeeping & Outsourcing</a>
+                </p>
+            </div>
+
+            <div>
+                <p class="footer-header">Useful Resources</p>
+                <hr class="footer-hr">
+
+                <br>
+
+                <p><a class="footer-content" href="http://www.mca.gov.in/">Ministry of Corporate Affairs</a></p>
+                <p><a class="footer-content" href="https://www.incometaxindia.gov.in">Income Tax</a></p>
+
+                <p><a class="footer-content" href="https://www.rbi.org.in/">Reserve Bank of India</a></p>
+
+                <p><a class="footer-content" href="http://dgft.gov.in/">Directorate General of Foreign Trade</a></p>
+                <p><a class="footer-content" href="http://www.cbec.gov.in/">Central Board of Excise and Customs</a></p>
+            </div>
+
+            <div>
+                <p class="footer-header">Contact Information</p>
+                <hr class="footer-hr">
+
+                <br>
+
+                <p class="footer-content">SHOP NO. 8 & 9, VARDAN SHOPPING COMPLEX, OPP. KUSHALBAG MAIDAN, NEAR KASTUR GOLD, BANSWARA, (RAJ.) -327001</p>
+                <p class="footer-content">Email: cajaykjani@gmail.com</p>
+                <p class="footer-content">Phone: +91-8905675863</p>
+            </div>
+
+            <div>
+                <p class="footer-content"><span style="font-size: 18px;">&copy;</span> CA Jay Jani & ASSOCIATES, All rights
+                    reserved</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+    <script src="/js/indexpage.js"></script>
+    <script src="/js/backend.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            loop: true,
+            infinite: true,
+            spaceBetween: 40,
+            autoplay: {
+                delay: 3000,
+            }
+        });
+    </script>
+    <!-- <script>
+        function handleClose() {
+            document.querySelector("#slide-out").style = "width:250px; transform: translateX(100%);";
+        }
+    </script> -->
+
+</body>
+<!-- https://api.whatsapp.com/send?phone=8619081664&text=Hi -->
+</html>

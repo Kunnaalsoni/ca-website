@@ -1,0 +1,135 @@
+.footer-container{
+	background-color: rgb(22, 34, 49);
+	padding: 20px 10px;
+}
+
+.footer-wrapper {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.footer-wrapper > div:nth-child(1) {
+	grid-column: 2 / 3;
+}
+
+.footer-wrapper > div:nth-child(2) {
+	grid-column: 4 / 6;
+}
+
+.footer-wrapper > div:nth-child(3) {
+	grid-column: 7 / 9
+}
+
+.footer-wrapper > div:nth-child(4) {
+	grid-column: 10 / 12;
+}
+
+.footer-wrapper > div:nth-child(5) {
+	grid-column: 2 / 7;
+	grid-row: 2;
+}
+
+.footer-wrapper > div:nth-child(5) > .footer-content {
+	text-align: center;
+}
+
+.footer-wrapper > div:nth-child(6) {
+	grid-column: 7 / 12;
+	grid-row: 2;
+}
+
+ .footer-wrapper > div:nth-child(5), .footer-wrapper > div:nth-child(6) {
+	padding-top: 30px;
+}
+
+.footer-header {
+	line-height: 1px;
+	font-size: 20px;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer-content {
+	font-size: 16px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: white !important;
+}
+
+.footer-hr {
+	border-color: white;
+	width: 30px;
+	background-color: white;
+	float: left;
+}
+
+.footer-follow-icons {
+	font-size: 24px !important;
+	color: white;
+	padding: 0px 10px;
+	cursor: pointer;
+}
+
+
+@media only screen and (max-width: 992px) {
+	.footer-header {
+		line-height: normal;
+	}
+
+	.footer-hr {
+		float: left !important;
+	}
+
+	.footer-wrapper > div:nth-child(1) {
+		grid-column: 1 / 6;
+		padding-left: 10px;
+	}
+
+	.footer-wrapper > div:nth-child(2) {
+		grid-column: 7 / 13;
+		padding-right: 10px;
+	}
+
+	.footer-wrapper > div:nth-child(3) {
+		grid-column: 1 / 6;
+	}
+
+	.footer-wrapper > div:nth-child(4) {
+		grid-column: 7 / 13;
+	}
+
+	.footer-wrapper > div:nth-child(5),
+	.footer-wrapper > div:nth-child(6) {
+		grid-row: 8
+	}
+}
+
+@media only screen and (max-width: 460px) {
+
+	.footer-wrapper > div:nth-child(1) {
+		grid-column: 1 / 13;
+		padding-left: 10px;
+	}
+
+	.footer-wrapper > div:nth-child(2) {
+		grid-column: 1 / 13;
+		padding-right: 10px;
+	}
+
+	.footer-wrapper > div:nth-child(3) {
+		grid-column: 1 / 13;
+	}
+
+	.footer-wrapper > div:nth-child(5) {
+		grid-row: 7;
+		grid-column: 1 / 13
+	}
+
+	.footer-wrapper > div:nth-child(4) {
+		grid-column: 1 / 13;
+	}
+
+	.footer-wrapper > div:nth-child(6) {
+		grid-row: 6;
+		grid-column: 1 / 13;
+	}
+}
