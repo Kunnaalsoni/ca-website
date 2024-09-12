@@ -196,9 +196,9 @@ nav#sub-nav {
    transition: .5s;
 }
 
-.sub-nav-follow-links:hover {
+/* .sub-nav-follow-links:hover {
    transform: rotate(360deg);
-}
+} */
 
 #sub-nav .nav-wrapper #nav-mobile > li {
    color: white;
